@@ -1,6 +1,6 @@
 # Rest API
 
-## Use on Windows
+## Usage on Windows
 
 ### Run the application on Windows
 
@@ -8,7 +8,7 @@
 .\mvnw.cmd clean spring-boot:run
 ``````
 
-### Example of use on Windows
+### Example of usage on Windows
 
 ``````
 curl -i -X POST http://localhost:8080/api/createUser -H 'Content-Type:application/json' -d '{\"name\":\"Guy\"}'
@@ -21,7 +21,7 @@ curl -i -X POST http://localhost:8080/api/depositForAccount/2?amount=20000
 curl -i http://localhost:8080/api/getUser/1
 ``````
 
-## Use on Linux
+## Usage on Linux
 
 ### Run the application on Linux
 
