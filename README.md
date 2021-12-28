@@ -29,7 +29,7 @@ curl -i http://localhost:8080/api/getUser/1
 .\mvn clean spring-boot:run
 ``````
 
-### Example of use on Linux
+### Example of usage on Linux
 
 ``````
 curl -i -X POST http://localhost:8080/api/createUser -H 'Content-Type:application/json' -d '{"name":"Guy"}'
