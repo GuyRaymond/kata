@@ -1,4 +1,4 @@
-package com.gmail.guy.kata.service;
+package com.gmail.besseng.guy.kata.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -8,8 +8,8 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-import com.gmail.guy.kata.model.User;
-import com.gmail.guy.kata.repository.UserRepository;
+import com.gmail.besseng.guy.kata.model.User;
+import com.gmail.besseng.guy.kata.repository.UserRepository;
 
 @Transactional
 @Component

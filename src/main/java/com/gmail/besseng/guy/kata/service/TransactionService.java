@@ -1,4 +1,4 @@
-package com.gmail.guy.kata.service;
+package com.gmail.besseng.guy.kata.service;
 
 import java.math.BigDecimal;
 
@@ -10,11 +10,11 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.gmail.guy.kata.model.Account;
-import com.gmail.guy.kata.model.Transaction;
-import com.gmail.guy.kata.repository.AccountRepository;
-import com.gmail.guy.kata.repository.TransactionRepository;
-import com.gmail.guy.kata.exception.TransactionException;
+import com.gmail.besseng.guy.kata.model.Account;
+import com.gmail.besseng.guy.kata.model.Transaction;
+import com.gmail.besseng.guy.kata.repository.AccountRepository;
+import com.gmail.besseng.guy.kata.repository.TransactionRepository;
+import com.gmail.besseng.guy.kata.exception.TransactionException;
 
 @Transactional
 @Component

@@ -1,4 +1,4 @@
-package com.gmail.guy.kata.model;
+package com.gmail.besseng.guy.kata.model;
 
 import java.text.SimpleDateFormat;
 
@@ -27,7 +27,7 @@ import javax.persistence.Table;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-import com.gmail.guy.kata.exception.TransactionException;
+import com.gmail.besseng.guy.kata.exception.TransactionException;
 
 @ConfigurationProperties("service")
 @Entity

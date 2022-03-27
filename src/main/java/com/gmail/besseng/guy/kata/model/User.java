@@ -1,4 +1,4 @@
-package com.gmail.guy.kata.model;
+package com.gmail.besseng.guy.kata.model;
 
 import java.util.List;
 import java.util.ArrayList;
