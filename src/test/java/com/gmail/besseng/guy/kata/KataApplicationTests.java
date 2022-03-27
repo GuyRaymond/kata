@@ -55,7 +55,7 @@ class KataApplicationTests {
     }
     @Test
     @DisplayName("Check amount is positive for deposit")
-    public void checkTransactionAmountPositiveForDeposit() throws TransactionException{
+    public void checkTransactionAmountPositiveForDeposit() throws TransactionException {
         assertTrue(0 < (new Transaction(new BigDecimal("1000"), true)).getAmount().compareTo(BigDecimal.ZERO));
     }
     @Test
@@ -66,5 +66,4 @@ class KataApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
