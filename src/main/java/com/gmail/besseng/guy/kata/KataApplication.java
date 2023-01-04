@@ -9,8 +9,8 @@ public class KataApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(KataApplication.class, args);
-        System.out.print("\033\143");
-        System.out.println("\nKAtaApplication is running");
+                System.out.print("\033\143");
+                System.out.println("\nKataApplication is running");
 	}
 
 }
